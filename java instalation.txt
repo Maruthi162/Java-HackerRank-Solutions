@@ -1,0 +1,21 @@
+****  Java setup in VS Code ******
+
+--> download java JDK on system from Oracle website.
+
+--> verify weather java installed properly on machine or not.
+
+    steps:   --> CMD --> java -version   gives the current version you installed.
+
+
+--> download and install VS code on machine
+
+--> Extensions required for java in VS Code
+
+1) Extension pack for java
+2) Debugger for Java
+3) Test Runner for Java
+4) Language Support for Java
+
+
+5) Run Code extension to remove unwanted details in output
+
