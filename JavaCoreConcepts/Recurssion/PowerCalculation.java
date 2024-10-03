@@ -3,12 +3,16 @@ package JavaCoreConcepts.Recurssion;
 import java.util.Scanner;
 
 public class PowerCalculation {
-    static int Power(int x, int n){
+    static double Power(int x, int n){
         //base case
         if(n==0){
             return 1;
         }
-        //recurssive case
+        //recurssive and negetive case
+        else if(n<0){
+            return 1.0 / Power(x, -n);
+        }
+        //recrssive and positicve case
         else{
             return x*Power(x,n-1);   // 2^3 == 2*P(2,2)--> 2*2*P(2,1) --> 4*2*P(2,0) --> 6*1 --> 1
         }
