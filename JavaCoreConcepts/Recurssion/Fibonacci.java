@@ -1,4 +1,4 @@
-package JavaCoreConcepts;
+package JavaCoreConcepts.Recurssion;
 
 import java.util.Scanner;
 
