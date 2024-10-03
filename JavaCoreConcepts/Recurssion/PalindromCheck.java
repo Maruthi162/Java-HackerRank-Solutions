@@ -14,7 +14,6 @@ public class PalindromCheck {
 
 class PalindromCheckerClass{
     
-
     static String IsPalindrom(String str){
         //base case
         if(str.length()<=1){
