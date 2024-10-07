@@ -14,7 +14,7 @@ interface Flyer{
 
 //multiple inheritance with interface
 class Frog implements Walker,Swimmer{
-    //@Override
+    @Override
     public void walk(){
         System.out.println("Frog can walk");
     }
@@ -25,13 +25,13 @@ class Frog implements Walker,Swimmer{
 }
 //multiple inheritance with interface
 class Bird implements Walker,Flyer{
-    //@Override
+    @Override  //in java if we don't use @Override annotation also method overriding will work
     public void walk(){
         System.out.println("Bird can walk");
     }
-    //@Override
     public void Fly(){
         System.out.println("Bird can fly");
+
     }
 }
 
