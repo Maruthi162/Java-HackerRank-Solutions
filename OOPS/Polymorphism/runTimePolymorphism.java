@@ -1,7 +1,5 @@
 package OOPS.Polymorphism;
 
-import OOPS.InnerClass.staticInnerClass;
-
 class Laptop{
     void Brand(){
         System.out.println("Every Laptop has it's own branding.");
