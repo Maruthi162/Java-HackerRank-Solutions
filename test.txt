@@ -1,1 +1,4 @@
 Writting this piece of text using filewritter
+Writing this piece of text   manually
+Writting this piece of text using filewritter
+Writting this piece of text using filewritter

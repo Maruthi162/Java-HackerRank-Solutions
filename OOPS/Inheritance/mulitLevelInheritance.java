@@ -8,7 +8,7 @@ class Animal2 {
 }
 //first level of inheritance
 class Cat2 extends Animal2{
-    void HoeManyLegs(){
+    void HowManyLegs(){
         this.noOfLegs=4;
         System.out.println("Cat  has "+noOfLegs+ " legs");
     }
@@ -21,12 +21,12 @@ class Cat2 extends Animal2{
 //second level of inheritance
 class Kitten extends Cat2{
     @Override
-    void HoeManyLegs(){
+    void HowManyLegs(){
         this.noOfLegs=3;
         System.out.println("Kitten only have "+noOfLegs+" legs");
     }
     void parentHowManyLegs(){
-        super.HoeManyLegs();
+        super.HowManyLegs();
     }
     @Override
     void Eat(){
@@ -42,7 +42,7 @@ public class mulitLevelInheritance {
     public static void main(String[] args){
         Kitten myKitten=new Kitten();
         myKitten.parentHowManyLegs();
-        myKitten.HoeManyLegs();
+        myKitten.HowManyLegs();
         myKitten.Eat();
         myKitten.ParentEat();
         
