@@ -1,3 +1,17 @@
+/*
+    Question:
+    Develop a Java application that manages student records in a text file. The application should allow users to perform the following operations:
+
+    Add Student Record: Users can add a new student record consisting of a name, student ID, and grade. The system should validate that the student ID does not already exist in the file.
+
+    Update Student Record: Users can update an existing student’s name and grade based on their student ID. If the ID is not found, the system should inform the user.
+
+    Delete Student Record: Users can delete a student record using their student ID. The system should remove the record from the file and confirm the deletion.
+
+    File Management: The application should handle file creation if the records file does not exist, and it should ensure proper reading and writing to the file without data loss.
+ */
+
+
 package FileHandling;
 
 import java.nio.file.*;
