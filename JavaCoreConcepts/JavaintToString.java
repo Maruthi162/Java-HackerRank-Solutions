@@ -12,7 +12,7 @@ public class JavaintToString {
         int N = sc.nextInt();
         try {
             String str = String.valueOf(N);
-            System.out.println("Good job");
+            System.out.println("Good job"+str);
         } catch (Exception ex) {
             System.out.println("Wrong Answer");
         }
