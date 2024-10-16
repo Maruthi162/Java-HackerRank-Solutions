@@ -7,7 +7,7 @@ public class Contains {
     //public boolean contains(Object element)
     public static void main(String[] args){
         List<String> cars=new ArrayList<>(Arrays.asList("TATA","Toyota","Benz"));
-        //returns true id collection contains Maruthi
+        //returns true id collection contains TATA
         boolean isContained=cars.contains("TATA");
         System.out.println(isContained);
     }
