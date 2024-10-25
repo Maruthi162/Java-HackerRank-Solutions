@@ -8,8 +8,8 @@ public class Copy {
         //Collections.copy() method. This method requires the destination list (dest) to be of the same size or larger than the source list (src)
         //
         // Initialize the destination list with the same size as the source list
-        List<Integer> dest = new ArrayList<>(Collections.nCopies(src.size(), 0)); // Fill with dummy values
-        System.out.println(dest.toString());
+        List<Integer> dest = new ArrayList<>(Collections.nCopies(src.size(), 0)); // Fill with dummy values(0)
+        //System.out.println(dest.toString());
         Collections.copy(dest, src);
         System.out.println(dest.toString());
     }
