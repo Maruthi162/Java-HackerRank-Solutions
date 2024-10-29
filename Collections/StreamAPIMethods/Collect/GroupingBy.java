@@ -1,4 +1,4 @@
-package Collections.StreamAPIMethods;
+package Collections.StreamAPIMethods.Collect;
 import java.util.*;
 import java.util.stream.*;
 public class GroupingBy {
