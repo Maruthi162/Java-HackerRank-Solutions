@@ -1,7 +1,5 @@
 package Collections.CollectionsMethods.ArrayList;
 
-import javax.net.ssl.SSLPeerUnverifiedException;
-
 import Collections.StreamAPIMethods.Gender;
 import java.util.*;
 
