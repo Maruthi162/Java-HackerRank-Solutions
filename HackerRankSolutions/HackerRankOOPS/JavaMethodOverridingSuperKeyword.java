@@ -1,4 +1,4 @@
-package HackerRankSolutions;
+package HackerRankSolutions.HackerRankOOPS;
 class BiCycle{
 
 	String define_me(){
@@ -13,6 +13,7 @@ class MotorCycle extends BiCycle{
 	}
 	
 	MotorCycle(){
+        //implemented in constructor;
 		System.out.println("Hello I am a motorcycle, I am "+ define_me());
 
 		String temp=super.define_me(); //Fix this line
@@ -24,5 +25,7 @@ class MotorCycle extends BiCycle{
 public class JavaMethodOverridingSuperKeyword {
     public static void main(String []args){
 		MotorCycle M=new MotorCycle();
+        //ignore below method call
+        M.define_me();
 	}
 }
