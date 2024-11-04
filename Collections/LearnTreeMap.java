@@ -19,6 +19,7 @@ public class LearnTreeMap {
         }
 
         for(Map.Entry<String,Integer> entry: namesCount.entrySet()){
+            //since it's tree map, all the entrys are stored in sorted based on Key 
             System.out.println("Key: "+entry.getKey() +" Value: "+entry.getValue());
         }
     }
