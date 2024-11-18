@@ -5,7 +5,8 @@ class Thread1 implements Runnable{
     public void run() {
         // TODO Auto-generated method stub
         for(int i=1;i<=5;i++){
-            try{Thread.sleep(10000);}catch(Exception e){};
+            //pause the thread for 2000 ms
+            try{Thread.sleep(2000);}catch(Exception e){};
             System.out.println("Hello");
         }  
     }
@@ -17,12 +18,13 @@ class Thread2 implements Runnable{
         // TODO Auto-generated method stub
         for(int i=1;i<=5;i++){
             System.out.println("Hi");
-            try{Thread.sleep(6000);}catch(Exception e){};
+            //pause the thread for 1000ms
+            try{Thread.sleep(1000);}catch(Exception e){};
         }
     }
 }
 
-public class CreatingThreadUsingRunnableInterface1 {
+public class SleepMethod {
     public static void main(String[] args) {
         Runnable obj1=new Thread1();
         Runnable obj2=new Thread2();
