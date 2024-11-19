@@ -17,6 +17,7 @@ class Thread1 implements Runnable{
                 try{
                     if(i<5){
                         lock.wait();
+                       // Thread.sleep(500);
                     }
                 }
                 catch(InterruptedException e){
@@ -45,6 +46,7 @@ class Thread2 implements Runnable{
                 try{
                     if(i<5){
                         lock.wait();
+                        //Thread.sleep(500);
                     }
                 }
                 catch(InterruptedException e){
