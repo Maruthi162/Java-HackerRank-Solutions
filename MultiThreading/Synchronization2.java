@@ -24,10 +24,10 @@ public class Synchronization2 {
                 for (int i = 1; i <= 1000; i++) {
                     synchronized (lock) {
                         c.Increment();
-                        lock.notify();
+                        lock.notify();//notify t2 to proceed
                         try {
                             if (i < 1000) {
-                                lock.wait();
+                                lock.wait(); //wait for t2 to complete
                             }
                         } catch (InterruptedException e) {
                             e.printStackTrace();
@@ -44,10 +44,10 @@ public class Synchronization2 {
                 for (int i = 1; i <= 1000; i++) {
                     synchronized (lock) {
                         c.Increment();
-                        lock.notify();
+                        lock.notify(); //notify t1 to proceed
                         try {
                             if (i < 1000) {
-                                lock.wait();
+                                lock.wait();//wait for t1 to complete
                             }
                         } catch (InterruptedException e) {
                             e.printStackTrace();
