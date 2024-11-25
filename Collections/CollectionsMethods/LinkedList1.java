@@ -4,7 +4,6 @@ import java.util.*;
 public class LinkedList1 {
     public static void main(String[] args) {
         /* code */
-        int n=13;
         LinkedList<Integer> l=new LinkedList<>();
         l.add(1);
         l.add(2);
