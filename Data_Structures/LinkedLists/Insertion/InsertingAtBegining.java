@@ -1,7 +1,5 @@
 package Data_Structures.LinkedLists.Insertion;
 
-import java.util.List;
-
 class ListNode{
     int value;
     ListNode next;
